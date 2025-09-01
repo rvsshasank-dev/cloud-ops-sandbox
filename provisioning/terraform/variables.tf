@@ -75,7 +75,7 @@ variable "gke_node_pool" {
   })
   description = "Initial settings and autoscale configuration of the GKE cluster's default node pool"
   default = {
-    initial_node_count = 4
+    initial_node_count = 2
     labels             = {}
     machine_type       = "e2-standard-4"
     autoscaling        = null
