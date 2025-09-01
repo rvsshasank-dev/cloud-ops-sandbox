@@ -77,7 +77,7 @@ variable "gke_node_pool" {
   default = {
     initial_node_count = 2
     labels             = {}
-    machine_type       = "e2-standard-4"
+    machine_type       = "n1-standard-2"
     autoscaling        = null
   }
 }
